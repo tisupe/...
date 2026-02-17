@@ -1,0 +1,12 @@
+set softwrap
+set speller "aspell -x -c"
+set constantshow
+set linenumbers
+set historylog
+set positionlog
+set indicator
+set minibar
+set trimblanks
+set casesensitive
+set mouse
+set nonewlines

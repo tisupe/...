@@ -1,0 +1,8 @@
+(12143) (2026-01-22 04:30:40,004) [INFO] termvisage: Starting a new session
+(12143) (2026-01-22 04:30:40,004) [INFO] termvisage: Logging level set to WARNING
+(12143) (2026-01-22 04:30:40,104) [INFO] termvisage.cli: Running in CLI mode
+(12143) (2026-01-22 04:30:41,379) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(12479) (2026-01-22 04:31:22,095) [INFO] termvisage: Starting a new session
+(12479) (2026-01-22 04:31:22,096) [INFO] termvisage: Logging level set to WARNING
+(12479) (2026-01-22 04:31:22,143) [INFO] termvisage.cli: Running in CLI mode
+(12479) (2026-01-22 04:31:22,365) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)

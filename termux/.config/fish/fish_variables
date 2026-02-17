@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ANI_CLI_PLAYER:nohup\x20am\x20start\x20\x2d\x2duser\x200\x20\x2da\x20android\x2eintent\x2eaction\x2eVIEW\x20\x2dn\x20app\x2emarlboroadvance\x2empvex/\x2eui\x2eplayer\x2ePlayerActivity\x20\x2dd
+SETUVAR __fish_initialized:4300
