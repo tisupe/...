@@ -90,7 +90,7 @@ keybinds {
     }
     
     search {
-        bind "Ctrl s" { SwitchToMode "Normal"; }
+        bind "Ctrl z" { SwitchToMode "Normal"; }
         bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
         bind "j" "Down" { ScrollDown; }
         bind "k" "Up" { ScrollUp; }
@@ -208,9 +208,15 @@ keybinds {
         bind "Ctrl h" { SwitchToMode "Move"; }
     }
     
-    shared_except "tmux" "locked" {
-        bind "Ctrl b" { SwitchToMode "Tmux"; }
+    shared_except "locked" {
+    bind "Ctrl q" {
+        LaunchOrFocusPlugin "zj-quit" {
+            floating true;
+            move_to_focused_tab true;
+            close_on_exit true;
+        };
     }
+}
     
 }
 
@@ -229,6 +235,10 @@ plugins {
     configuration location="zellij:configuration"
     plugin-manager location="zellij:plugin-manager"
     about location="zellij:about"
+    zj-quit location="file:/data/data/com.termux/files/home/.config/zellij/plugins/zj-quit.wasm" {
+    confirm_key "Enter"
+    cancel_key "Esc"
+  }
 }
 
 load_plugins {
