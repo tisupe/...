@@ -1,0 +1,1 @@
+ACTION=="add|bind", SUBSYSTEM=="platform", DRIVER=="thinkpad_acpi", RUN+="/usr/bin/chgrp fan_ctl /proc/acpi/ibm/fan", RUN+="/usr/bin/chmod 0664 /proc/acpi/ibm/fan"

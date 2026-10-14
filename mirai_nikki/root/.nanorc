@@ -1,15 +1,32 @@
-include /usr/share/nano/*.nanorc
+include "/usr/share/nano/*.nanorc"
+include "/usr/share/nano/extra/*.nanorc"
 
 set softwrap
 set constantshow
-set linenumbers
-set historylog
 set positionlog
-set indicator
 set minibar
 set trimblanks
-set mouse
-set nonewlines
 set tabsize 4
 set autoindent
 set casesensitive
+set tabstospaces
+set linenumbers
+set indicator
+set smarthome
+set afterends
+set wordchars "_"
+set zap
+set atblanks
+set historylog
+set nonewlines
+set multibuffer
+
+set titlecolor bold,normal,normal
+set keycolor bold,normal,normal
+set functioncolor bold,normal,normal
+set numbercolor bold,normal,normal
+set errorcolor bold,normal,normal
+set scrollercolor bold,normal,normal
+set selectedcolor bold,normal,normal
+set stripecolor bold,normal,normal
+set statuscolor bold,normal,normal
